@@ -4,7 +4,7 @@ on:
     branches:
       - main  #wykonuje sie tylko kiedy push na te galaz
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest  #wykona sie na najnowszym ubuntu
     steps:
       - uses: actions/checkout@v4  #konfiguracja srodowiska
