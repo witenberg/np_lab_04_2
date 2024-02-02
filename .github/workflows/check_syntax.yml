@@ -2,7 +2,7 @@ name: check_syntax  #nazwa
 on:
   push:
     branches:
-      - check_syntax  #wykonuje sie tylko kiedy push na galaz main
+      - main  #wykonuje sie tylko kiedy push na galaz main
 jobs:
   check:
     runs-on: ubuntu-latest  #wykonywane na najnowszym ubuntu
